@@ -13,8 +13,8 @@ def get_info(slack_name: str, track: str):
         "track": track,
         "current_day": day,
         "utc_time": time,
-        "github_file_url": "Your GitHub File URL",
-        "github_repo_url": "Your GitHub Repo URL",
+        "github_file_url": "https://github.com/EiseWilliam/stg1-getinfo-app/blob/main/app.py",
+        "github_repo_url": "https://github.com/EiseWilliam/stg1-getinfo-app",
         "status_code": 200,
     }
     return info
